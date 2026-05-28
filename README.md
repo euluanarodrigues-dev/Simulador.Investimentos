@@ -24,7 +24,7 @@ Infra como profissional: Subir um banco de dados na AWS me deu uma visão muito 
 
 Organização é tudo: Estruturei o repositório como um Monorepo, separando o que é infra de AWS do código backend, porque, como dizem, código organizado é código feliz!
 
-🎯 Próximos passos
+🎯 Próximos passos:
 Este projeto não está parado! Estou sempre querendo adicionar novas funcionalidades, como:
 
 [ ] Implementar endpoints para cadastro de ativos.
