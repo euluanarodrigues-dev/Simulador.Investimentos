@@ -1,34 +1,36 @@
-# 📈 Simulador de Carteira de Investimentos - XP Inc.
+🚀 Simulador de Carteira XP
+Olá! Seja bem-vindo(a) ao meu projeto de estimação. 😊
 
-Este é um projeto prático desenvolvido em **Java** para simular as operações básicas de uma carteira de investimentos no ecossistema da **XP Inc.** O objetivo principal é consolidar fundamentos de Programação Orientada a Objetos (POO), estruturas de dados eficientes e simular regras de negócio do mercado financeiro.
+Sabe aquele desejo de organizar os investimentos e entender como as coisas funcionam "por baixo do capô"? Foi assim que o Simulador de Carteira XP nasceu. Este projeto é o meu playground onde misturo Java, Spring Boot e AWS para simular uma gestão de ativos de forma segura e eficiente.
 
----
+💡 Por que este projeto?
+Eu queria mais do que apenas um "Hello World". O desafio aqui foi construir uma aplicação real, conectada a um banco de dados PostgreSQL na nuvem (AWS RDS), e aprender na prática como proteger dados sensíveis usando variáveis de ambiente (nada de senhas no código, hein! 😉).
 
-## 🛠️ Tecnologias e Conceitos Aplicados
+🛠️ Minha "Caixa de Ferramentas"
+Linguagem: Java 21
 
-### 1. Java Moderno e POO
-*   **Encapsulamento:** Utilização de modificadores de acesso (`private`) e métodos assessores (`getters/setters`) nas classes `Ativo` e `Investimento` para garantir a segurança e consistência dos dados dos ativos.
-*   **Java Streams & Lambdas:** Implementação de funções funcionais para iterar e exibir os ativos do mercado de forma limpa e performática.
+Framework: Spring Boot (o coração do projeto!)
 
-### 2. Estrutura de Dados & Performance
-*   **Uso de HashMaps (`Map<String, Ativo>`):** Escolha estratégica da estrutura chave-valor para simular a busca de ativos pelo seu *Ticker* (ex: XPBR31). Isso garante uma busca com complexidade de tempo constante, simulando cenários reais de alta performance onde a latência precisa ser mínima.
-*   **Lists (`ArrayList`):** Utilizado para gerenciar a carteira dinâmica de investimentos do cliente de forma sequencial.
+Banco de Dados: PostgreSQL (hospedado na AWS RDS)
 
----
+Gerenciamento de Dependências: Maven
 
-## 🚀 Próximos Passos (Evolução Técnica & AWS)
+Controle de Versão: Git & GitHub (onde a magia acontece)
 
-Como parte do meu cronograma focado no ecossistema **Java + AWS**, o planejamento de evolução deste projeto inclui:
+📈 O que aprendi (e sofri um pouquinho, mas valeu!)
+Segurança em primeiro lugar: Aprendi a configurar variáveis de ambiente para que minha aplicação rode com segurança, mantendo as chaves do banco longe de olhares indiscretos.
 
-1.  **Persistência de Dados:** Substituir as listas na memória do programa por um banco de dados relacional (PostgreSQL) simulando o **AWS RDS** ou não-relacional usando o **Amazon DynamoDB**.
-2.  **Arquitetura de Nuvem:** Transformar o simulador em uma API REST utilizando **Spring Boot** e realizar o deploy da aplicação utilizando containers (**Amazon ECS/EKS**) ou instâncias virtuais (**Amazon EC2**).
-3.  **Mensageria:** Implementar eventos de compra e venda assíncronos simulando o uso de **AWS SQS / SNS** para garantir que ordens simultâneas não gerem gargalos no sistema.
+Infra como profissional: Subir um banco de dados na AWS me deu uma visão muito clara de como as aplicações "conversam" com a nuvem.
 
----
+Organização é tudo: Estruturei o repositório como um Monorepo, separando o que é infra de AWS do código backend, porque, como dizem, código organizado é código feliz!
 
-## 💻 Como Rodar o Projeto
+🎯 Próximos passos
+Este projeto não está parado! Estou sempre querendo adicionar novas funcionalidades, como:
 
-1. Certifique-se de ter o Java JDK instalado (Versão 8 ou superior).
-2. Clone o repositório:
-   ```bash
-   git clone [https://github.com/euluanarodrigues-dev/SimuladorCarteiraXP.git](https://github.com/euluanarodrigues-dev/SimuladorCarteiraXP.git)
+[ ] Implementar endpoints para cadastro de ativos.
+
+[ ] Criar testes unitários para garantir que tudo continue funcionando.
+
+[ ] Melhorar a arquitetura para ficar cada vez mais escalável.
+
+Se você gostou do que viu, sinta-se à vontade para explorar o código. Dicas, sugestões ou um "oi" são sempre bem-vindos! Vamos trocar uma ideia? ☕
