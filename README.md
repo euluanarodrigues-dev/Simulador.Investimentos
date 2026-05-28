@@ -30,5 +30,5 @@ Como parte do meu cronograma focado no ecossistema **Java + AWS**, o planejament
 
 1. Certifique-se de ter o Java JDK instalado (Versão 8 ou superior).
 2. Clone o repositório:
-```bash
-   git clone [https://github.com/SEU_USUARIO/SimuladorCarteiraXP.git](https://github.com/SEU_USUARIO/SimuladorCarteiraXP.git)
+   ```bash
+   git clone [https://github.com/euluanarodrigues-dev/SimuladorCarteiraXP.git](https://github.com/euluanarodrigues-dev/SimuladorCarteiraXP.git)
