@@ -1,36 +1,34 @@
-🚀 Simulador de Carteira XP
-Olá! Seja bem-vindo(a) ao meu projeto de estimação. 😊
+Simulador de Carteira XP
+Este projeto nasceu do desejo de organizar investimentos e entender o funcionamento de uma aplicação de gestão de ativos por baixo do capô. Ele funciona como um ambiente de testes pessoal onde utilizo Java, Spring Boot e AWS para simular uma gestão de ativos de forma segura e eficiente.
 
-Sabe aquele desejo de organizar os investimentos e entender como as coisas funcionam "por baixo do capô"? Foi assim que o Simulador de Carteira XP nasceu. Este projeto é o meu playground onde misturo Java, Spring Boot e AWS para simular uma gestão de ativos de forma segura e eficiente.
+Proposta do Projeto
+O objetivo principal foi ir além de projetos básicos de estudo. O desafio aqui envolveu construir uma aplicação real, conectada a um banco de dados relacional na nuvem (AWS RDS), focando em boas práticas de desenvolvimento — como o uso de variáveis de ambiente para proteger dados sensíveis e acessos ao banco, evitando qualquer tipo de credencial exposta no código.
 
-💡 Por que este projeto?
-Eu queria mais do que apenas um "Hello World". O desafio aqui foi construir uma aplicação real, conectada a um banco de dados PostgreSQL na nuvem (AWS RDS), e aprender na prática como proteger dados sensíveis usando variáveis de ambiente (nada de senhas no código, hein! 😉).
-
-🛠️ Minha "Caixa de Ferramentas"
+Tecnologias Utilizadas
 Linguagem: Java 21
 
-Framework: Spring Boot (o coração do projeto!)
+Framework: Spring Boot
 
 Banco de Dados: PostgreSQL (hospedado na AWS RDS)
 
 Gerenciamento de Dependências: Maven
 
-Controle de Versão: Git & GitHub (onde a magia acontece)
+Controle de Versão: Git e GitHub
 
-📈 O que aprendi (e sofri um pouquinho, mas valeu!)
-Segurança em primeiro lugar: Aprendi a configurar variáveis de ambiente para que minha aplicação rode com segurança, mantendo as chaves do banco longe de olhares indiscretos.
+Aprendizados e Desafios
+Segurança e Configuração: Implementação de variáveis de ambiente para garantir que a aplicação rode de forma segura, mantendo as chaves de acesso ao banco isoladas do código público.
 
-Infra como profissional: Subir um banco de dados na AWS me deu uma visão muito clara de como as aplicações "conversam" com a nuvem.
+Infraestrutura em Nuvem: O processo de provisionar e conectar um banco de dados na AWS trouxe uma visão prática sobre como aplicações locais se comunicam com serviços em nuvem.
 
-Organização é tudo: Estruturei o repositório como um Monorepo, separando o que é infra de AWS do código backend, porque, como dizem, código organizado é código feliz!
+Estrutura de Repositório: Organização do projeto no formato Monorepo, separando claramente os arquivos de infraestrutura da AWS do código-fonte do backend, o que facilita a manutenção e escalabilidade.
 
-🎯 Próximos passos:
-Este projeto não está parado! Estou sempre querendo adicionar novas funcionalidades, como:
+Próximos Passos
+O projeto segue em desenvolvimento contínuo. As próximas melhorias planejadas são:
 
-[ ] Implementar endpoints para cadastro de ativos.
+[ ] Implementar endpoints para cadastro e gestão de ativos.
 
-[ ] Criar testes unitários para garantir que tudo continue funcionando.
+[ ] Criar testes unitários para garantir a estabilidade do código.
 
-[ ] Melhorar a arquitetura para ficar cada vez mais escalável.
+[ ] Evoluir a arquitetura do sistema com foco em escalabilidade.
 
-Se você gostou do que viu, sinta-se à vontade para explorar o código. Dicas, sugestões ou um "oi" são sempre bem-vindos! Vamos trocar uma ideia? ☕
+Fique à vontade para explorar o código, abrir issues ou enviar sugestões de melhoria.
