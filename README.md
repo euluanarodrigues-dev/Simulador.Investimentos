@@ -1,4 +1,4 @@
-# Simulador de Carteira XP
+# Simulador de Carteira de Investimentos
 
 Este projeto nasceu do desejo de organizar investimentos e entender o funcionamento de uma aplicação de gestão de ativos por baixo do capô. Ele funciona como um ambiente de testes pessoal onde utilizo Java, Spring Boot e AWS para simular uma gestão de ativos de forma segura e eficiente.
 
